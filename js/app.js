@@ -305,9 +305,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   initMobileMenu();
 
   // Use relative paths (plays nicer on a county server subfolder)
-  const site = await loadJSON(".content/site.json");
-  const alerts = await loadJSON(".content/alerts.json");
-  const meetings = await loadJSON(".content/meetings.json");
+  const site = await loadJSON("./content/site.json");
+  const alerts = await loadJSON("./content/alerts.json");
+  const meetings = await loadJSON("./content/meetings.json");
 
 
   // Alerts: prefer alerts.json, fall back to site.json if needed
