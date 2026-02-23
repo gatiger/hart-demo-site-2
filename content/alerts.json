@@ -19,9 +19,10 @@
       "template": "compact",
       "title": "Tax Reminder",
       "message": "Property tax payments are due March 31.",
-      "link": { "label": "Pay / Details", "href": "/tax-commissioner.html" },
+      "link": { "label": "Pay / Details", "href": "https://www.hartcountypay.com" },
       "dismissible": true,
       "end": "2026-03-31T23:59:00-05:00"
     }
   ]
+
 }
